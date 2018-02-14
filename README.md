@@ -20,10 +20,10 @@ TMP116 operating temperature range of –55°C to +125°C and exceeds A RTD class ac
 
 **Note:** The library depends on: [ClosedCube I2C Driver for Arduino](https://github.com/closedcube/ClosedCube_I2C_Arduino)
   
-![ClosedCube B019_TMP116](http://images.closedcube.uk/B019_TMP116/B019_TMP116_GitHub_Pic1.jpg)
-![ClosedCube B019_TMP116](http://images.closedcube.uk/B019_TMP116/B019_TMP116_GitHub_Pic2.jpg)
-![ClosedCube B019_TMP116](http://images.closedcube.uk/B019_TMP116/B019_TMP116_GitHub_Pic3.jpg)
-![ClosedCube B019_TMP116](http://images.closedcube.uk/B019_TMP116/B019_TMP116_GitHub_Pic4.jpg)
+![ClosedCube B019_TMP116](https://dx3zixcyb9sa4.cloudfront.net/ClosedCube/B019_TMP116/B019_TMP116_GitHub_Pic1.jpg)
+![ClosedCube B019_TMP116](https://dx3zixcyb9sa4.cloudfront.net/ClosedCube/B019_TMP116/B019_TMP116_GitHub_Pic2.jpg)
+![ClosedCube B019_TMP116](https://dx3zixcyb9sa4.cloudfront.net/ClosedCube/B019_TMP116/B019_TMP116_GitHub_Pic3.jpg)
+![ClosedCube B019_TMP116](https://dx3zixcyb9sa4.cloudfront.net/ClosedCube/B019_TMP116/B019_TMP116_GitHub_Pic4.jpg)
 
 ---
 ### Where to Buy?
