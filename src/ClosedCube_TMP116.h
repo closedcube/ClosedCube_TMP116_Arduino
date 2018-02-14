@@ -1,3 +1,9 @@
+/*
+
+Arduino library for ClosedCube TMP116 ±0.2°C (max) High-Accuracy Low-Power I2C Temperature Sensor breakout board
+
+---
+
 The MIT License (MIT)
 
 Copyright (c) 2018 ClosedCube Limited
@@ -19,3 +25,51 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+*/
+
+#ifndef _CLOSEDCUBE_TMP116_h
+#define _CLOSEDCUBE_TMP116_h
+
+#include <ClosedCube_I2C.h>
+
+enum TMP116_REGISTERS
+{
+	TMP116_REG_TEMP	= 0x00,
+	TMP116_REG_CONFIG = 0x01,
+	TMP116_REG_HIGH_LIMIT = 0x02,
+	TMP116_REG_LOW_LIMIT= 0x03,	
+	TMP116_REG_DEVICE_ID = 0x0F,
+};
+
+namespace ClosedCube
+{
+	namespace Sensor
+	{
+		
+		class TMP116
+		{
+		public:
+			void begin(uint8_t address);
+
+			double readTemperature();
+			double readT();
+
+			double readHighLimit();
+			double readLowLimit();
+
+			void writeHighLimit(double limit);
+			void writeLowLimit(double limit);
+
+			uint16_t readDeviceId();
+
+		private:
+
+			ClosedCube::Driver::I2CDevice _sensor;
+		};
+
+	}
+}
+
+#endif
+
