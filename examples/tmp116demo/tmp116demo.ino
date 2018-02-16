@@ -24,7 +24,7 @@ void setup()
 
 	Serial.println("ClosedCube TMP116 Arduino Test");
 	
-	tmp116.begin(0x48); // Sensor I2C address either 0x48 or x49
+	tmp116.address(0x48); // Sensor I2C address either 0x48 or x49
 
 	Serial.print("Device ID: 0x");
 	Serial.println(tmp116.readDeviceId(), HEX); // Device ID = 0x116	

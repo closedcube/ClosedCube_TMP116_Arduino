@@ -50,7 +50,11 @@ namespace ClosedCube
 		class TMP116
 		{
 		public:
-			void begin(uint8_t address);
+
+			TMP116();
+			TMP116(uint8_t address);
+
+			void address(uint8_t address);
 
 			double readTemperature();
 			double readT();

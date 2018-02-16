@@ -32,7 +32,18 @@ THE SOFTWARE.
 
 #include <ClosedCube_I2C.h>
 
-void ClosedCube::Sensor::TMP116::begin(uint8_t address)
+ClosedCube::Sensor::TMP116::TMP116()
+{
+	
+}
+
+ClosedCube::Sensor::TMP116::TMP116(uint8_t address) 
+{
+	_sensor.address(address);
+}
+
+
+void ClosedCube::Sensor::TMP116::address(uint8_t address)
 {
 	_sensor.address(address);
 }
