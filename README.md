@@ -33,12 +33,12 @@ TMP116 operating temperature range of –55°C to +125°C and exceeds A RTD class ac
 | Region  | Link for 2 pcs | Link for 2 pcs (Right-Angle) |
 | ------------- | ------------- |------------- |
 | Canada | TBD |TBD |
-| Germany (DE) | TDB |  TBD |
-| France (FR) | TDB | TBD |
-| Italy (IT) | TDB | TBD |
+| Germany (DE) | https://www.amazon.de/dp/B0799NMPNX |  https://www.amazon.de/dp/B0799MHJBB |
+| France (FR) | https://www.amazon.fr/dp/B0799NMPNX | https://www.amazon.fr/dp/B0799MHJBB |
+| Italy (IT) | https://www.amazon.it/dp/B0799NMPNX | https://www.amazon.it/dp/B0799MHJBB |
 | Mexico | TBD | TBD |
-| Spain (ES) | TDB | TBD |
-| UK | TDB | TBD |
+| Spain (ES) | https://www.amazon.es/dp/B0799NMPNX | https://www.amazon.es/dp/B0799MHJBB |
+| UK | https://www.amazon.co.uk/dp/B0799NMPNX | https://www.amazon.co.uk/dp/B0799MHJBB |
 | USA | TBD | TBD |
 
 
@@ -46,13 +46,14 @@ TMP116 operating temperature range of –55°C to +125°C and exceeds A RTD class ac
 
 | Region  | Link |
 | ------------- | ------------- |
-| Europe,Asia,Oceania | TBD  |
-| USA  | TBD |
+| Europe,Asia,Oceania | https://www.ebay.co.uk/itm/183100422221  |
+| USA  | https://www.ebay.com/itm/183100444105 |
 
 
 [![](http://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/stores/closedcube/)
 
-TBD
+ https://www.tindie.com/products/11555/
+
 
 
 
